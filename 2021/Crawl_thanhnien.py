@@ -104,49 +104,6 @@ def Crawler2021(ma_tinh, chrome_path, save_path, so_luong = 9999, start = -1, ch
                     std['KHXH'] = monhoc[15].text
                     students.append(std.copy())
 
-        # while(1):
-        #     # check dung vong while
-        #     if(time.time() - t1 >= 10):
-        #         break
-        #
-        #     # ....................................................
-        #     try:
-        #         time.sleep(0.5)
-        #         table = driver.find_element_by_class_name("ptnk-tab-container-2")
-        #         list_rs = table.find_element_by_id('resultcontainer').find_elements_by_tag_name('tr')
-        #     except:
-        #         print("Loi tim kiem: resultcontainer")
-        #         continue
-        #
-        #     # .........Crawl thong tin............................
-        #     for node in list_rs:
-        #         std = {}
-        #         monhoc = []
-        #         time_load = time.time()
-        #         while(1):
-        #             if(time.time() - time_load >= 5):
-        #                 break
-        #             try:
-        #                 monhoc = node.find_elements_by_tag_name('td')
-        #             except:
-        #                 continue
-        #             break
-        #         if(len(monhoc) > 0):
-        #             std['Cum_thi'] = ma_tinh
-        #             std['SBD'] = monhoc[3].text
-        #             std['Toan'] = monhoc[6].text
-        #             std['Ngu_van'] = monhoc[7].text
-        #             std['Vat_ly'] = monhoc[8].text
-        #             std['Hoa_hoc'] = monhoc[9].text
-        #             std['Sinh_hoc'] = monhoc[10].text
-        #             std['KHTN'] = monhoc[11].text
-        #             std['Lich_su'] = monhoc[12].text
-        #             std['Dia_ly'] = monhoc[13].text
-        #             std['Dia_ly'] = monhoc[14].text
-        #             std['KHXH'] = monhoc[15].text
-        #             std['Ngoai_ngu'] = monhoc[16].text
-        #             students.append(std.copy())
-
         # them student
         if(len(students) > 0):
             print("{0}..{1}: {2}".format(ma_tinh, stt, len(students)))
@@ -163,14 +120,14 @@ def Crawler2021(ma_tinh, chrome_path, save_path, so_luong = 9999, start = -1, ch
 
         # check dieu kien dung
         if(stt > so_luong):
-            name = ma_tinh + '0' * (6 - len(str(sbd_final))) + str(sbd_final)
+            name = ma_tinh + '0' * (4 - len(str(sbd_final))) + str(sbd_final)
             if(len(data)):
                 pd.DataFrame(data).to_csv(save_path + '/{0}/{1}.csv'.format(ma_tinh, name))
             print('{} Doneeeeeeeeeeeeeeeeee'.format(ma_tinh))
             return
 
-        if(stt - sbd_final > 5):
-            name = ma_tinh + '0' * (6 - len(str(sbd_final))) + str(sbd_final)
+        if(stt - sbd_final > 100):
+            name = ma_tinh + '0' * (4 - len(str(sbd_final))) + str(sbd_final)
             if(len(data) > 0):
                 pd.DataFrame(data).to_csv(save_path + '/{0}/{1}.csv'.format(ma_tinh, name))
             print('{} 11111111111111111111111111111111111111111111'.format(ma_tinh))
@@ -178,7 +135,6 @@ def Crawler2021(ma_tinh, chrome_path, save_path, so_luong = 9999, start = -1, ch
 
         # Luot tiep theo
         stt += 1
-
         # refresh
         if(stt % 50 == 0):
             driver.close()
