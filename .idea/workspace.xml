@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8eeb28e3-1f85-4c09-ad7e-b41439a3ae99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data/diemthi_2020.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/diemthi_2021.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2020/Crawl_diemthi24h.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2020/Crawl_thanhnien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2020/Crawl_vnexpress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2020/Process_data/Phantich.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2020/Process_data/Processing.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2020/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Crawl_thanhnien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Crawl_tienphong.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/Dia_ly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/GDCD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/Hoa_hoc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/KhoiA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/KhoiA1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/KhoiB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/KhoiC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/KhoiD1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/Lich_su.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/Ngoai_ngu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/Ngu_van.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/Sinh_hoc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/Toan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Phổ điểm/Vat_ly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Process_data/Phantich.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Process_data/Processing.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/Process_data/Processing_update.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/bosung.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old/2021/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crawler/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crawler/batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/Crawl_diemthi24h.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/Crawl_thanhnien.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/Crawl_vnexpress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/Process_data/.ipynb_checkpoints/Phantich-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/Process_data/.ipynb_checkpoints/Processing-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/Process_data/Phantich.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/Process_data/Processing.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Crawl_thanhnien.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Crawl_tienphong.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/Dia_ly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/GDCD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/Hoa_hoc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/KhoiA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/KhoiA1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/KhoiB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/KhoiC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/KhoiD1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/Lich_su.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/Ngoai_ngu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/Ngu_van.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/Sinh_hoc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/Toan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Phổ điểm/Vat_ly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Process_data/.ipynb_checkpoints/Phantich-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Process_data/.ipynb_checkpoints/Processing-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Process_data/.ipynb_checkpoints/Processing_update-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Process_data/Phantich.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Process_data/Processing.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/Process_data/Processing_update.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/bosung.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/Diemthi2020.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/Diemthi2021.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2jMDFlir5gs4yS1n0Jmj4yXwA1F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.google.cloudcode.ide_session_index": "20240718_0002",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/HaiDB/self/crawl_diemthi_thptqg/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HaiDB\self\crawl_diemthi_thptqg\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HaiDB\self\crawl_diemthi_thptqg\src" />
+      <recent name="D:\HaiDB\self\crawl_diemthi_thptqg\crawl" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CrawlDiemthiTHPT" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (crawl_diemthi_thptqg)" />
+      <option name="WORKING_DIRECTORY" value="D:\HaiDB\self\crawl_diemthi_thptqg" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8eeb28e3-1f85-4c09-ad7e-b41439a3ae99" name="Changes" comment="" />
+      <created>1721187950405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721187950405</updated>
+      <workItem from="1721187951496" duration="12195000" />
+      <workItem from="1721214807611" duration="18169000" />
+      <workItem from="1721290706379" duration="43000" />
+      <workItem from="1721294016905" duration="3099000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/crawler/batch.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/crawler/batch.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/crawl_diemthi_thptqg$main.coverage" NAME="main Coverage Results" MODIFIED="1721297088375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:\HaiDB\self\crawl_diemthi_thptqg" />
+  </component>
+</project>
