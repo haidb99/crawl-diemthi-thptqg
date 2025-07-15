@@ -4,7 +4,6 @@ import os
 
 import aiohttp
 import pandas as pd
-import requests
 
 
 class BatchCrawler:
