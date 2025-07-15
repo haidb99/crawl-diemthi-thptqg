@@ -45,8 +45,10 @@ class BatchCrawler:
         self.semaphore = asyncio.Semaphore(self.batch_size)
         self.lock = asyncio.Lock()
 
-    def run(self):
+    def run(self, is_merge: bool = False):
         asyncio.run(self._run_sync())
+        if is_merge:
+            self.concat_files()
 
     async def _run_sync(self):
         async with aiohttp.ClientSession() as session:
