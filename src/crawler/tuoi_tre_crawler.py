@@ -99,7 +99,7 @@ class TuoiTreCrawler(BaseCrawler):
             last_page = await self._get_last_page(session, city_code)
 
             tasks = [self._get_data_by_page(session, city_code, page) for page in range(0, last_page + 1)]
-            results = await tqdm_asyncio.gather(*tasks, desc=f"{city_code} - pages")
+            results = await tqdm_asyncio.gather(*tasks, desc=f"{city_code} - pages", ascii=" =")
             self.save_data(results, city_code)
             return city_code
         elif self.crawl_type == "sbd":
@@ -107,7 +107,7 @@ class TuoiTreCrawler(BaseCrawler):
             if last_stt < 1:
                 return city_code
             tasks = [self._get_data_by_sbd(session, city_code, stt) for stt in range(0, last_stt + 1)]
-            results = await tqdm_asyncio.gather(*tasks, desc=f"{city_code} - SBD")
+            results = await tqdm_asyncio.gather(*tasks, desc=f"{city_code} - SBD", ascii=" =")
             self.save_data(results, city_code)
             return city_code
 

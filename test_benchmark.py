@@ -19,7 +19,7 @@ async def run_asyncio():
     connector = aiohttp.TCPConnector(limit=1000)
     async with aiohttp.ClientSession(connector=connector) as session:
         tasks = [fetch(session, url) for url in URLS]
-        for f in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="aiohttp"):
+        for f in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="aiohttp", ascii=" ="):
             await f
 
 
