@@ -1,14 +1,10 @@
 import json
 
-import pandas
-from crawler.batch import BatchCrawler
+import crawler
+from crawler.batch import Batch
 import pandas as pd
+from utils import cities_code
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    cities_code = ["0{}".format(i) for i in range(10)] + [str(i) for i in range(10, 100)]
-    crawler = BatchCrawler(cities_code=cities_code, year=2022)
-    crawler.run()
-    crawler.concat_files()
-    # df = pd.read_csv("data/diemthi_2024.csv", header=0)
-    # print(df.count())
+    crawler = Batch.tuoi_tre(cities_code=cities_code, year=2025, batch_size=5000, crawl_type="sbd")
+    crawler.run(is_merge=True)
